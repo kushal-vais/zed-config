@@ -1,0 +1,158 @@
+{
+  // --- Core UI ---
+  "use_system_window_tabs": false,
+  "ui_font_family": "Inter",
+  "theme": {
+    "mode": "dark",
+    "dark": "Catppuccin Macchiato",
+    "light": "GitHub Dark",
+  },
+  "icon_theme": {
+    "mode": "system",
+    "dark": "Material Icon Theme",
+    "light": "Zed (Default)",
+  },
+
+  // --- Typography ---
+  "buffer_font_family": "Ubuntu Mono",
+  "buffer_font_size": 14.0,
+  "buffer_font_weight": 400.0,
+  "buffer_line_height": "standard",
+  "ui_font_size": 14.0,
+
+  // --- Editor Feel ---
+  "cursor_shape": "block",
+  "soft_wrap": "editor_width",
+  "auto_indent_on_paste": true,
+  "format_on_save": "on",
+
+  // --- Layout ---
+  "centered_layout": {
+    "left_padding": 0.12,
+    "right_padding": 0.12,
+  },
+
+  // --- Tabs ---
+  "tab_bar": {
+    "show": true,
+    "show_tab_bar_buttons": false,
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+  },
+
+  // --- Toolbar (hidden) ---
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+    "selections_menu": false,
+  },
+
+  // --- Panels ---
+  "project_panel": {
+    "button": true,
+    "dock": "left",
+    "file_icons": true,
+    "folder_icons": true,
+    "git_status": true,
+    "entry_spacing": "standard",
+    "auto_reveal_entries": true,
+  },
+  "outline_panel": {
+    "button": true,
+  },
+
+  // --- Status & Title ---
+  "status_bar": {
+    "active_language_button": true,
+    "cursor_position_button": true,
+  },
+  "title_bar": {
+    "show_project_items": true,
+    "show_branch_name": true,
+  },
+
+  // --- Git ---
+  "git": {
+    "enable_status": true,
+    "git_gutter": "hide",
+  },
+
+  // --- Diagnostics ---
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+      "update_debounce_ms": 150,
+      "padding": 4,
+    },
+    "include_warnings": false,
+  },
+
+  // --- Indentation ---
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware",
+  },
+
+  // --- Scrollbar ---
+  "scrollbar": {
+    "diagnostics": "error",
+  },
+
+  // --- Formatter ---
+  "formatter": "prettier",
+  "prettier": {
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "avoid",
+    "printWidth": 90,
+  },
+
+  // --- Language Tweaks ---
+  "languages": {
+    "JavaScript": {
+      "formatter": "prettier",
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true,
+      },
+    },
+    "TypeScript": {
+      "formatter": "prettier",
+      "code_actions_on_format": {
+        "source.organizeImports": true,
+        "source.fixAll.eslint": true,
+      },
+    },
+    "TSX": {
+      "formatter": "prettier",
+      "code_actions_on_format": {
+        "source.organizeImports": true,
+        "source.fixAll.eslint": true,
+      },
+    },
+  },
+
+  // --- Terminal (Git Bash) ---
+  "terminal": {
+    "dock": "bottom",
+    "font_size": 14,
+    "line_height": "comfortable",
+    "copy_on_select": true,
+    "shell": {
+      "program": "C:\\Program Files\\Git\\bin\\bash.exe",
+    },
+  },
+
+  // --- Behavior ---
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 300,
+    },
+  },
+
+  // --- Keymap ---
+  "base_keymap": "VSCode",
+}
